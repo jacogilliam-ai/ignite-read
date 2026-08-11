@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creamalicious welcome email mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f8f1e3; --card:#fffaf0; --red:#c0453a; --red-deep:#9f342b;
+    --brown:#4a3123; --brown-muted:#8a6f5c; --gold:#d9a441;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--cream);
+    font-family:'Inter',-apple-system,sans-serif;
+    padding:44px 20px;
+    display:flex;justify-content:center;
+  }
+  .wrap{width:600px;max-width:100%;}
+  .chrome{
+    background:#ececec;border:1px solid #dcdcdc;border-bottom:none;
+    border-radius:14px 14px 0 0;padding:16px 22px;
+    font-size:13px;line-height:1.7;color:#555;
+  }
+  .chrome p{margin:0;}
+  .chrome strong{color:#333;display:inline-block;min-width:64px;font-weight:600;}
+  .email{
+    background:var(--card);
+    border:1px solid #e7dcc7;border-top:none;
+    border-radius:0 0 16px 16px;overflow:hidden;
+    box-shadow:0 30px 70px rgba(74,49,35,.20);
+  }
+  .topbar{height:7px;background:linear-gradient(90deg,var(--red) 0 60%,var(--gold) 60% 100%);}
+  .head{text-align:center;padding:34px 40px 4px;}
+  .eyebrow{
+    font-size:11px;font-weight:700;letter-spacing:3px;
+    text-transform:uppercase;color:var(--red);margin:0 0 12px;
+  }
+  .brand{
+    font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:700;
+    font-size:40px;line-height:1;color:var(--brown);
+  }
+  .hero{
+    margin:26px 0 0;padding:0 40px;text-align:center;
+  }
+  .hero h1{
+    font-family:'Playfair Display',Georgia,serif;font-weight:700;
+    font-size:32px;line-height:1.18;color:var(--brown);margin:0;
+  }
+  .body{padding:22px 44px 6px;text-align:center;}
+  .body p{font-size:16px;line-height:1.65;color:var(--brown);margin:0 0 15px;}
+  .body .lede{font-weight:600;font-size:17px;}
+  .code-card{
+    margin:24px 44px 6px;padding:24px 20px;
+    background:#fbeee0;border:2px dashed rgba(192,69,58,.4);
+    border-radius:14px;text-align:center;
+  }
+  .code-card .label{font-size:13px;color:var(--brown-muted);margin:0 0 8px;letter-spacing:.5px;}
+  .code-card .code{
+    font-family:'Playfair Display',serif;font-weight:700;
+    font-size:30px;letter-spacing:3px;color:var(--red);margin:0;
+  }
+  .code-card .fine{font-size:12px;color:var(--brown-muted);margin:10px 0 0;}
+  .cta{
+    display:block;width:fit-content;margin:26px auto 6px;
+    padding:16px 44px;background:var(--red);color:#fff;
+    font-size:15px;font-weight:700;letter-spacing:.5px;
+    text-decoration:none;border-radius:99px;
+    box-shadow:0 10px 24px rgba(192,69,58,.34);
+  }
+  .sign{text-align:center;padding:28px 44px 4px;}
+  .sign p{font-size:15px;color:var(--brown);margin:0;}
+  .sign .names{
+    font-family:'Playfair Display',serif;font-style:italic;font-weight:600;
+    font-size:20px;color:var(--red);margin-top:4px;
+  }
+  .footer{text-align:center;padding:26px 40px 34px;}
+  .footer p{font-size:12px;color:var(--brown-muted);line-height:1.7;margin:0;}
+  .footer a{color:var(--brown-muted);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="chrome">
+      <p><strong>From:</strong> Creamalicious</p>
+      <p><strong>Subject:</strong> Your 10% is here, welcome to the family</p>
+    </div>
+    <div class="email">
+      <div class="topbar"></div>
+      <div class="head">
+        <p class="eyebrow">Blissfully Southern</p>
+        <p class="brand">Creamalicious</p>
+      </div>
+
+      <div class="hero">
+        <h1>Well, hey there. Welcome to the family.</h1>
+      </div>
+
+      <div class="body">
+        <p class="lede">You signed up, and around here that makes you kin.</p>
+        <p>Every pint we make starts the way the best things down South always have: slow, by hand, and with a little more love than strictly necessary. We are so glad you found us.</p>
+        <p>Here is the 10 percent we promised, waiting on you.</p>
+      </div>
+
+      <div class="code-card">
+        <p class="label">Your welcome treat</p>
+        <p class="code">WELCOME10</p>
+        <p class="fine">10% off your first order. Just for the family.</p>
+      </div>
+
+      <div class="body">
+        <a class="cta" href="#">Find your flavor</a>
+      </div>
+
+      <div class="sign">
+        <p>From our kitchen to your porch,</p>
+        <p class="names">The Creamalicious Family</p>
+      </div>
+
+      <div class="footer">
+        <p>You're getting this because you joined the family at socreamalicious.co.<br><a href="#">Unsubscribe</a> anytime, sugar.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

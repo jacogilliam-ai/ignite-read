@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>After the click, OG card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{width:1200px;height:630px;overflow:hidden;font-family:'Inter',sans-serif;}
+  .card{
+    width:1200px;height:630px;position:relative;
+    background:
+      radial-gradient(ellipse at 18% 12%, rgba(91,120,255,.22), transparent 55%),
+      radial-gradient(ellipse at 84% 88%, rgba(44,75,224,.30), transparent 60%),
+      linear-gradient(155deg,#1c2b4d 0%,#16223f 60%,#101a30 100%);
+    display:flex;flex-direction:column;justify-content:center;
+    padding:0 96px;color:#f7f2e6;
+  }
+  .accent{
+    position:absolute;left:0;top:0;bottom:0;width:14px;
+    background:linear-gradient(180deg,#2c4be0,#5b78ff);
+  }
+  .wordmark{
+    font-family:'Poppins',sans-serif;font-weight:800;letter-spacing:.16em;
+    font-size:26px;color:#5b78ff;margin:0 0 34px;
+  }
+  h1{
+    font-family:'Poppins',sans-serif;font-weight:700;
+    font-size:104px;line-height:.98;letter-spacing:-.02em;color:#fff;margin:0;
+  }
+  .sub{
+    font-size:30px;color:#c3ccdd;margin:38px 0 0;font-weight:400;
+  }
+  .rule{width:76px;height:5px;background:#2c4be0;border-radius:99px;margin:44px 0 0;}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="accent"></div>
+    <p class="wordmark">IGNITE&nbsp;&nbsp;·&nbsp;&nbsp;CREATIVE MARKETING</p>
+    <h1>After the click.</h1>
+    <div class="rule"></div>
+    <p class="sub">A private read for Ignite Creative Marketing.</p>
+  </div>
+</body>
+</html>
